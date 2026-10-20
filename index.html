@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f7f6f2">
+    <meta name="description" content="Portafolio personal de Adriel Rocel Alarcon Gerl.">
+    <title>Adriel Rocel — Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="topbar" id="inicio">
+        <a class="brand" href="#inicio">AR<span>.</span></a>
+
+        <nav class="nav" id="nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#sobre-mi">Sobre mí</a>
+        </nav>
+
+        <a class="github-link" href="https://github.com/RocelGerl"
+           target="_blank" rel="noopener noreferrer">
+            GitHub <span>↗</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Abrir menú" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="intro section-wrap">
+            <div class="intro-text">
+                <p class="eyebrow"><span class="status-dot"></span> Portafolio personal</p>
+
+                <h1>Hola, soy<br>Adriel <span>Rocel.</span></h1>
+
+                <p class="intro-description">
+                    Me gusta programar, probar ideas y crear herramientas
+                    que sirvan para algo más que quedarse en el código.
+                </p>
+
+                <div class="intro-actions">
+                    <a class="button-primary" href="#proyectos">
+                        Ver mis proyectos <span>↘</span>
+                    </a>
+                    <a class="text-link" href="https://github.com/RocelGerl"
+                       target="_blank" rel="noopener noreferrer">
+                        Mi GitHub ↗
+                    </a>
+                </div>
+
+                <p class="small-note">La mayoría de las cosas que hago empiezan con una idea y muchas pruebas.</p>
+            </div>
+
+            <div class="code-card" aria-label="Fragmento de código personal">
+                <div class="code-top">
+                    <div class="window-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <span>about-me.js</span>
+                    <span class="code-menu">···</span>
+                </div>
+
+                <div class="code-content">
+                    <p><span class="code-purple">const</span> <span class="code-blue">adriel</span> = {</p>
+                    <p class="indent"><span class="code-red">nombre</span>: <span class="code-green">"Adriel Rocel"</span>,</p>
+                    <p class="indent"><span class="code-red">aprendiendo</span>: <span class="code-green">true</span>,</p>
+                    <p class="indent"><span class="code-red">proyectos</span>: <span class="code-orange">"en proceso"</span>,</p>
+                    <p class="indent"><span class="code-red">rendirse</span>: <span class="code-green">false</span></p>
+                    <p>};</p>
+                    <p class="code-comment">// seguir intentando :)</p>
+                </div>
+
+                <div class="code-bottom">
+                    <span><span class="status-dot"></span> trabajando en nuevas ideas</span>
+                    <span>JS</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section-wrap" id="proyectos">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">LO QUE HE HECHO</p>
+                    <h2>Mis proyectos<span class="heading-period">.</span></h2>
+                </div>
+                <a class="text-link" href="https://github.com/RocelGerl?tab=repositories"
+                   target="_blank" rel="noopener noreferrer">
+                    Ver todo en GitHub ↗
+                </a>
+            </div>
+
+            <p class="section-description">
+                Repositorios de mi GitHub. Algunos están terminados y otros
+                siguen siendo parte del aprendizaje.
+            </p>
+
+            <div class="project-list" id="projectList" aria-live="polite">
+                <p class="loading-text">Cargando repositorios...</p>
+            </div>
+
+            <p class="github-footnote">
+                ¿Quieres ver el código completo?
+                <a href="https://github.com/RocelGerl"
+                   target="_blank" rel="noopener noreferrer">Está en GitHub ↗</a>
+            </p>
+        </section>
+
+        <section class="about section-wrap" id="sobre-mi">
+            <div class="about-label">
+                <p class="eyebrow">UN POCO SOBRE MÍ</p>
+                <h2>No todo sale<br>a la primera.</h2>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    Soy Adriel Rocel Alarcon Gerl. Me interesa el desarrollo
+                    de software y disfruto encontrar formas de resolver
+                    problemas con tecnología.
+                </p>
+                <p>
+                    Aquí voy guardando lo que construyo, lo que aprendo
+                    y las ideas que quiero seguir mejorando.
+                </p>
+
+                <a class="text-link" href="https://github.com/RocelGerl"
+                   target="_blank" rel="noopener noreferrer">
+                    Puedes ver mi trabajo aquí ↗
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a class="brand" href="#inicio">AR<span>.</span></a>
+        <p>Hecho por mí, con paciencia y café.</p>
+        <a href="#inicio" class="back-top">Volver arriba ↑</a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
